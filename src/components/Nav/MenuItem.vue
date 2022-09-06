@@ -17,7 +17,9 @@
         <span>Navigator One</span>
       </template>
       <el-menu-item-group>
-        <template #title><span>Group One</span></template>
+        <template #title>
+          <router-link to="/"><span>Group One</span></router-link>
+        </template>
         <el-menu-item index="1-1">item one</el-menu-item>
         <el-menu-item index="1-2">item two</el-menu-item>
       </el-menu-item-group>
