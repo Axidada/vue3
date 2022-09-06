@@ -18,7 +18,7 @@
       </template>
       <el-menu-item-group>
         <template #title>
-          <router-link to="/"><span>Group One</span></router-link>
+          <router-link to="/"><span>首页</span></router-link>
         </template>
         <el-menu-item index="1-1">item one</el-menu-item>
         <el-menu-item index="1-2">item two</el-menu-item>
@@ -49,7 +49,7 @@
         <setting />
       </el-icon>
       <template #title>
-        <router-link to="/table">NavigatorFour</router-link>
+        <router-link to="/table">Table</router-link>
       </template>
     </el-menu-item>
   </el-menu>
